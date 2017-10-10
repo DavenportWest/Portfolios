@@ -227,18 +227,18 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#FFFFFF; background-color:#1B1F25;}
+body{color:#e8e3e3; background-color:#1B1F25;}
 a{color:#56AED4;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
-.overlay{color:#FFFFFF; background-color:inherit;}
+.overlay{color:#e8e3e3; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
-.overlay.coloured::after{color:inherit; background-color:rgba(46,53,65,.8);/* #2E3541 */}
+.overlay.coloured::after{color:inherit; background-color:rgba(46,53,65,1);/* #2E3541 */}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#56AED4; border-color:#56AED4;}
+.btn, .btn.inverse:hover{color:#e8e3e3; background-color:#56AED4; border-color:#56AED4;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .icon{border-color:#D7D7D7;}
