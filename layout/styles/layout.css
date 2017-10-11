@@ -6,22 +6,15 @@
 @import url("framework.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
 
-/* Rows
+/* Header
 --------------------------------------------------------------------------------------------------------------- */
+
 .row1, .row1 a{}
 .row2, .row2 a{}
 .row3, .row3 a{}
 .row4, .row4 a{}
 .row5, .row5 a{}
-
-
-/* Header
---------------------------------------------------------------------------------------------------------------- */
 #header{padding:50px 0;}
-
-
-
-
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
@@ -32,14 +25,9 @@
 #pageintro .introtxt .heading{margin-bottom:15px; font-size:36px;}
 #pageintro .introtxt p{font-size:16px; line-height:1.4;}
 #pageintro .introtxt footer{margin-top:30px;}
-
-
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
 .container{padding:80px 0;}
-
-/* Content */
-
 
 /* Comments */
 #comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
@@ -56,43 +44,15 @@
 #comments div{margin-bottom:15px;}
 #comments input[type="submit"], #comments input[type="reset"]{display:inline-block; width:auto; min-width:150px; margin:0; padding:8px 5px; cursor:pointer;}
 
-/* Sidebar */
-
-
-
-
-
-
-/* Latest
---------------------------------------------------------------------------------------------------------------- */
-
-#latest ul li article{position:relative; max-width:320px; border:1px solid;}
-#latest ul li figure{position:relative; text-align:center;}
-#latest ul li figure figcaption{position:static; margin-top:-20px;}
-#latest ul li .excerpt{padding:30px 20px; text-align:center;}
-#latest ul li .excerpt *{margin:0; padding:0;}
-#latest ul li .excerpt time{font-size:.8rem;}
-#latest ul li .excerpt .heading{margin-bottom:15px; font-size:1.2rem;}
-
-
-/* Footer
---------------------------------------------------------------------------------------------------------------- */
-
-
-
-
-
 /* Copyright
 --------------------------------------------------------------------------------------------------------------- */
 #copyright{padding:20px 0;}
 #copyright *{margin:0; padding:0;}
 
-
 /* Transition Fade
 --------------------------------------------------------------------------------------------------------------- */
 *, *::before, *::after{transition:all .3s ease-in-out;}
 #mainav form *{transition:none !important;}
-
 
 /* Navigation
 --------------------------------------------------------------------------------------------------------------- */
@@ -119,36 +79,10 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav li li .drop::after{top:15px; left:5px;}
 #mainav ul ul{visibility:hidden; opacity:0;}
 #mainav ul li:hover > ul{visibility:visible; opacity:1;}
-
 #mainav form{display:none; margin:0; padding:0;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
 #mainav form select{width:100%; padding:5px; border:1px solid;}
 #mainav form select option{margin:5px; padding:0; border:none;}
-
-/* Breadcrumb */
-#breadcrumb{padding:30px 0;}
-#breadcrumb ul{margin:0; padding:0; list-style:none; text-transform:uppercase;}
-#breadcrumb li{display:inline-block; margin:0 6px 0 0; padding:0;}
-#breadcrumb li a{display:block; position:relative; margin:0; padding:0 12px 0 0; font-size:12px;}
-#breadcrumb li a::after{top:3px; right:0; content:"\f101";}
-#breadcrumb li:last-child a{margin:0; padding:0;}
-#breadcrumb li:last-child a::after{display:none;}
-
-/* Sidebar Navigation */
-.sidebar nav{display:block; width:100%;}
-.sidebar nav li{margin:0 0 3px 0; padding:0;}
-.sidebar nav a{display:block; position:relative; margin:0; padding:5px 10px 5px 15px; text-decoration:none; border:solid; border-width:0 0 1px 0;}
-.sidebar nav a::after{top:9px; left:5px; content:"\f101";}
-.sidebar nav ul ul a{padding-left:35px;}
-.sidebar nav ul ul a::after{left:25px;}
-.sidebar nav ul ul ul a{padding-left:55px;}
-.sidebar nav ul ul ul a::after{left:45px;}
-
-/* Pagination */
-.pagination{display:block; width:100%; text-align:center; clear:both;}
-.pagination li{display:inline-block; margin:0 2px 0 0;}
-.pagination li:last-child{margin-right:0;}
-.pagination a, .pagination strong{display:block; padding:8px 11px; border:1px solid; background-clip:padding-box; font-weight:normal;}
 
 /* Back to Top */
 #backtotop{z-index:999; display:inline-block; position:fixed; visibility:hidden; bottom:20px; right:20px; width:36px; height:36px; line-height:36px; font-size:16px; text-align:center; opacity:.2;}
@@ -156,24 +90,11 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #backtotop.visible{visibility:visible; opacity:.5;}
 #backtotop:hover{opacity:1;}
 
-
-/* Tables
---------------------------------------------------------------------------------------------------------------- */
-table, th, td{border:1px solid; border-collapse:collapse; vertical-align:top;}
-table, th{table-layout:auto;}
-table{width:100%; margin-bottom:15px;}
-th, td{padding:5px 8px;}
-td{border-width:0 1px;}
-
-
 /* Gallery
 --------------------------------------------------------------------------------------------------------------- */
 #gallery{display:block; width:100%; margin-bottom:50px;}
 #gallery figure figcaption{display:block; width:100%; clear:both;}
 #gallery li{margin-bottom:30px;}
-
-
-
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
@@ -183,38 +104,21 @@ a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey ba
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
-
 .overlay{color:#e8e3e3; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 .overlay.coloured::after{color:inherit; background-color:rgba(46,53,65,1);/* #2E3541 */}
-
 .btn, .btn.inverse:hover{color:#e8e3e3; background-color:#56AED4; border-color:#56AED4;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
-
 .icon{border-color:#D7D7D7;}
 article:hover .icon{border-color:inherit; color:#FFFFFF; background-color:#56AED4;}
 
-
 /* Rows */
-.row1, .row1 a{}
-.row2{color:#FFFFFF; background-color:rgba(0,0,0,.8);}
-.row3{color:#797979; background-color:#FFFFFF;}
-.row4{color:#FFFFFF; background-color:#232832;}
-.row5, .row5 a{color:#FFFFFF; background-color:#1B1F25;}
 
+.row3{color:#797979; background-color:#FFFFFF;}
+.row5, .row5 a{color:#FFFFFF; background-color:#1B1F25;}
 
 /* Header */
 #header #logo a{color:inherit;}
-
-
-/* Full Width Split Box */
-.split{color:#FFFFFF; background-color:#2E3541;}/* Changes in mediaqueries */
-.split .box{background-color:inherit;}
-.split .box .elements li::before{background-color:#56AED4;}
-.split .box .elements li article .icon i{color:#2E3541; background-color:#FFFFFF; border-color:#FFFFFF;}
-.split .box .elements li article .icon i::after{border-color:#2E3541;}
-.split .box .elements li article:hover .icon i{color:inherit; background-color:#56AED4; border-color:#56AED4;}
-
 
 /* Latest */
 #latest ul li article{border-color:#D7D7D7}
@@ -245,22 +149,6 @@ article:hover .icon{border-color:inherit; color:#FFFFFF; background-color:#56AED
 #backtotop{color:#FFFFFF; background-color:#56AED4;}
 
 
-/* Tables + Comments */
-table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
-#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#56AED4;}
-th{color:#FFFFFF; background-color:#373737;}
-tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
-tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
-table a, #comments a{background-color:inherit;}
-
-
-
-
-/* Media Queries
---------------------------------------------------------------------------------------------------------------- */
-@-ms-viewport{width:device-width;}
-
-
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:978px){
@@ -273,21 +161,10 @@ table a, #comments a{background-color:inherit;}
 @media screen and (max-width:900px){
 	.hoc{max-width:90%;}
 
-	#header{}
-
-	#mainav{}
 	#mainav ul{display:none;}
 	#mainav form{display:block;}
-
-	#breadcrumb{}
-
-	.container{}
 	#comments input[type="reset"]{margin-top:10px;}
 	.pagination li{display:inline-block; margin:0 5px 5px 0;}
-
-	#footer{}
-
-	#copyright{}
 	#copyright p:first-of-type{margin-bottom:10px;}
 }
 
