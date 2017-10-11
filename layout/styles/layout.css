@@ -128,7 +128,10 @@ article:hover .icon{border-color:inherit; color:#FFFFFF; background-color:#56AED
 
 /* Footer */
 #footer .linklist li{border-color:#1B1F25;}
-
+#flowChart{
+	height: 75%;
+	width: 75%;
+}
 
 /* Navigation */
 #mainav li a{color:inherit;}
