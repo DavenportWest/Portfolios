@@ -107,7 +107,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 .overlay{color:#e8e3e3; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 .overlay.coloured::after{color:inherit; background-color:rgba(46,53,65,1);/* #2E3541 */}
-.btn, .btn.inverse:hover{color:#e8e3e3; background-color:#56AED4; border-color:#56AED4;}
+.btn, .btn.inverse:hover{color:#e8e3e3; background-color:#cc0000; border-color:#cc0000;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 .icon{border-color:#D7D7D7;}
 article:hover .icon{border-color:inherit; color:#FFFFFF; background-color:#56AED4;}
@@ -130,7 +130,7 @@ article:hover .icon{border-color:inherit; color:#FFFFFF; background-color:#56AED
 #footer .linklist li{border-color:#1B1F25;}
 #flowChart{
 	height: 75%;
-	width: 75%;
+	width: 25%;
 }
 
 /* Navigation */
@@ -149,7 +149,7 @@ article:hover .icon{border-color:inherit; color:#FFFFFF; background-color:#56AED
 .pagination a, .pagination strong{border-color:#D7D7D7;}
 .pagination .current *{color:#FFFFFF; background-color:#56AED4;}
 
-#backtotop{color:#FFFFFF; background-color:#56AED4;}
+#backtotop{color:#FFFFFF; background-color:#cc0000;}
 
 
 /* Max Wrapper Width - Laptop, Desktop etc.
