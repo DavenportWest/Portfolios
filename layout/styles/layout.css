@@ -62,6 +62,11 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"FontAwesome"; font-size:10px; line-height:10px;}
 
 /* Top Navigation */
+
+.mainHeader:hover{
+	color: white;
+	background-color: #cc0000;
+}
 #mainav{}
 #mainav ul.clear{margin-top:3px;}
 #mainav ul{text-transform:uppercase;}
