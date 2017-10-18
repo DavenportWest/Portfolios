@@ -59,7 +59,8 @@
 nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 
-#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"FontAwesome"; font-size:10px; line-height:10px;}
+#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after
+{position:absolute; font-family:"FontAwesome"; font-size:10px; line-height:10px;}
 
 /* Top Navigation */
 
@@ -148,7 +149,7 @@ article:hover .icon{border-color:inherit; color:#FFFFFF; background-color:#56AED
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#cc0000; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#56AED4;}
-#mainav form select{color:#FFFFFF; background-color:#000000; border-color:rgba(136,136,136,.5);/* #888888 */}
+#mainav form select{color:#FFFFFF; background-color:#cc0000; border-color:rgba(136,136,136,.5);/* #888888 */}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
 #breadcrumb li:last-child a{color:#56AED4;}
